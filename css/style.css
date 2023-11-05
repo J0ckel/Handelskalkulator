@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+  
+    
+    background-image: radial-gradient(rgb(44, 168, 240), rgb(61, 129, 175));
+    
+ }
+
+
+label {
+    color: rgb(9, 2, 24);
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    font-size: 100%;
+    margin-bottom: 3%;
+    border: 2px;
+    font-weight: bold;
+    
+}
+
+.inputstyle {
+    display: inline-block;
+    background-image: linear-gradient(darkturquoise, rgb(121, 204, 206));
+    margin-bottom: 3%;
+    border: 1px solid;
+    font-family: 'Acme', sans-serif;
+    color: rgb(13, 14, 13);
+    border-radius: 5px;
+    border-style: 1px solid;
+    /*font-size: large;*/
+    font-size: 100%;
+    font-weight: bold;
+      width: 80%;
+      max-width: 100px;
+      height: 20px;
+     
+   } 
+
+.inputReadOnly{
+    display: inline-block;
+    background-image: linear-gradient(rgb(90, 92, 92), rgb(183, 185, 185));
+    margin-bottom: 3%;
+    border: 1px solid;
+    font-family: 'Acme', sans-serif;
+    color: rgb(13, 14, 13);
+    border-radius: 5px;
+    border-style: 1px solid;
+    /*font-size: large;*/
+    font-size: 100%;
+    font-weight: bold;
+      width: 80%;
+      max-width: 100px;
+      height: 20px;
+     
+   }
+
+.buttonstyle{display: inline-block;
+    background-image: linear-gradient(rgb(0, 255, 34), rgb(31, 73, 25));
+    margin-bottom: 3%;
+  border: 1px solid;
+  font-family: 'Acme', sans-serif;
+  color: rgb(13, 14, 13);
+  border-radius: 5px;
+  border-style: 1px solid;
+  font-size: 100%;
+  font-weight: bold;
+    width: 80%;
+    max-width: 100px;
+    height: 20px;}
+

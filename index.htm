@@ -1,0 +1,82 @@
+<!--<html><head><title>Weiterleitung</title><meta http-equiv="refresh" content="0;URL=https://five-dice.4lima.de/FiveDiceDeluxe/index.php"></head><body></body></html> -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+  <meta http-equiv="pragma" content="no-cache">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jockels Handelskalkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="icon" href="lib/img/Default.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="Titel"><h1>Handelszuschlagskalkulator</h1></div>
+      <div class="Label_LEP"><label>Listeneinkaufspreis</label></div>
+      <div class="Label_LR"><label>- Lieferrabatt</label></div>
+      <div class="Label_ZEP"><label>= Zieleinkaufspreis</label></div>
+      <div class="Label_LS"><label>- Lieferskonto</label></div>
+      <div class="Label_BEP"><label>= Bareinkaufspreis</label></div>
+      <div class="Label_BK"><label>+ Bezugskosten</label></div>
+      <div class="Label_BP"><label>= Bezugspreis</label></div>
+      <div class="Label_HK"><label>+ Handlungskosten</label></div>
+      <div class="Label_SK"><label>= Selbstkosten</label></div>
+      <div class="Label_GZ"><label>+ Gewinnzuschlag</label></div>
+      <div class="Label_BVP"><label>= Barverkaufspreis</label></div>
+      <div class="Label_KS"><label>+ Kundenskonto</label></div>
+      <div class="Label_-VP"><label>+ Vertreterprovision</label></div>
+      <div class="Label_ZVP"><label>= Zielverkaufspreis</label></div>
+      <div class="Label_KR"><label>+ Kundenrabatt</label></div>
+      <div class="Label_LVP"><label>= Listenverkaufspreis</label></div>
+      <div class="Label_US"><label>+ Umsatzsteuer</label></div>
+      <div class="Label_LVK_US"><label>= Listen-VK + MwSt</label></div>
+      <div class="Input_LEP"><input type="text" id="Listeneinkaufspreis_input" placeholder="€" class="inputstyle"></input></div>
+      <div class="Input_LR"><input type="text" id="Lieferrabatt_input" placeholder="%"  class="inputstyle"></input></div>
+      <div class="Input_ZEP"></div>
+      <div class="Input_LS"><input type="text" id="Lieferskonto_input" placeholder="%"  class="inputstyle"></input></div>
+      <div class="Input_BEP"></div>
+      <div class="Input_BK"><input type="text" id="Bezugskosten_input" placeholder="€"  class="inputstyle">*Pflichtfeld</input></div>
+      <div class="Input_BP"></div>
+      <div class="Input_HK"><input type="text" id="Handlungskosten_input" placeholder="%" class="inputstyle"></input></div>
+      <div class="Input_SK"></div>
+      <div class="Input_GZ"><input type="text" id="Gewinnzuschlag_input" placeholder="%" class="inputstyle"></input></div>
+      <div class="Input_BVP"></div>
+      <div class="Input_KS"><input type="text" id="Kundenskonto_input" placeholder="%" class="inputstyle"></input></div>
+      <div class="Input_VP"><input type="text" id="Vertreterprovision_input" placeholder="%" class="inputstyle"></input></div>
+      <div class="Input_ZVP"></div>
+      <div class="Input_KR"><input type="text" id="Kundenrabatt_input" placeholder="%" class="inputstyle"></input></div>
+      <div class="Input_LVP"></input></div>
+      <div class="Input_US"><input type="text" id="Umsatzsteuer_input" placeholder="%" class="inputstyle" value="19"></input></div>
+      <div class="Input_LVK_US"></div>
+      <div class="Output_LEP"><input type="text" id="Listeneinkaufspreis_output" class="inputReadOnly" readonly value="0"></input></div>
+      <div class="Output_LR"><input type="text" id="Lieferrabatt_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_ZEP"><input type="text" id="Zieleinkaufspreis_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_LS"><input type="text" id="Lieferskonto_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_BEP"><input type="text" id="Bareinkaufspreis_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_BK"><input type="text" id="Bezugskosten_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_BP"><input type="text" id="Bezugspreis_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_HK"><input type="text" id="Handlungskosten_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_SK"><input type="text" id="Selbstkosten_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_GZ"><input type="text" id="Gewinnzuschlag_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_BVP"><input type="text" id="Barverkaufspreis_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_KS"><input type="text" id="Kundenskonto_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_VP"><input type="text" id="Vertreterprovision_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_ZVP"><input type="text" id="Zielverkaufspreis_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_KR"><input type="text" id="Kundenrabatt_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_LVP"><input type="text" id="Listenverkaufspreis_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_US"><input type="text" id="Umsatzsteuer_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="Output_LVK_US"><input type="text" id="LVK_US_output" class="inputReadOnly" readonly  value="0"></input></div>
+      <div class="button_area"><input class="buttonstyle" type="button" id="berechne_button" value="berechne" onclick="berechne_alles()"></input></div>
+    </div>
+    
+    <script src="js/class.js"></script>
+    <script src="js/script.js"></script>
+  
+  
+  
+  
+  
+  </body>
+</html>

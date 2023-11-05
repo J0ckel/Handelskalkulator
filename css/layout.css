@@ -1,0 +1,142 @@
+.container {  display: grid;
+    max-height: 80vh;
+    
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Titel Titel Titel ."
+      ". Label_LEP Output_LEP Input_LEP ." 
+      ". Label_LR Output_LR Input_LR ."
+      ". Label_ZEP Output_ZEP Input_ZEP ."
+      ". Label_LS Output_LS Input_LS ."
+      ". Label_BEP Output_BEP Input_BEP ."
+      ". Label_BK Output_BK Input_BK ."
+      ". Label_BP Output_BP Input_BP ."
+      ". Label_HK Output_HK Input_HK ."
+      ". Label_SK Output_SK Input_SK ."
+      ". Label_GZ Output_GZ Input_GZ ."
+      ". Label_BVP Output_BVP Input_BVP ."
+      ". Label_KS Output_KS Input_KS ."
+      ". Label_-VP Output_VP Input_VP ."
+      ". Label_ZVP Output_ZVP Input_ZVP ."
+      ". Label_KR Output_KR Input_KR ."
+      ". Label_LVP Output_LVP Input_LVP ."
+      ". Label_US Output_US Input_US ."
+      ". Label_LVK_US Output_LVK_US Input_LVK_US ."
+      ". button_area . . .";
+  }
+  
+  .button_area { grid-area: button_area;}
+
+  .Titel { grid-area: Titel; }
+  
+  .Label_LEP { grid-area: Label_LEP; }
+  
+  .Input_LEP { grid-area: Input_LEP; }
+  
+  .Output_LEP { grid-area: Output_LEP; }
+  
+  .Label_LR { grid-area: Label_LR; }
+  
+  .Label_ZEP { grid-area: Label_ZEP; }
+  
+  .Label_LS { grid-area: Label_LS; }
+  
+  .Label_BEP { grid-area: Label_BEP; }
+  
+  .Label_BK { grid-area: Label_BK; }
+  
+  .Label_BP { grid-area: Label_BP; }
+  
+  .Label_HK { grid-area: Label_HK; }
+  
+  .Label_SK { grid-area: Label_SK; }
+  
+  .Label_GZ { grid-area: Label_GZ; }
+  
+  .Label_BVP { grid-area: Label_BVP; }
+  
+  .Label_KS { grid-area: Label_KS; }
+  
+  .Label_-VP { grid-area: Label_-VP; }
+  
+  .Label_ZVP { grid-area: Label_ZVP; }
+  
+  .Label_KR { grid-area: Label_KR; }
+  
+  .Label_LVP { grid-area: Label_LVP; }
+  
+  .Label_US { grid-area: Label_US; }
+  
+  .Label_LVK_US { grid-area: Label_LVK_US; }
+  
+  .Input_LR { grid-area: Input_LR; }
+  
+  .Input_ZEP { grid-area: Input_ZEP; }
+  
+  .Input_LS { grid-area: Input_LS; }
+  
+  .Input_BEP { grid-area: Input_BEP; }
+  
+  .Input_BK { grid-area: Input_BK; }
+  
+  .Input_BP { grid-area: Input_BP; }
+  
+  .Input_HK { grid-area: Input_HK; }
+  
+  .Input_SK { grid-area: Input_SK; }
+  
+  .Input_GZ { grid-area: Input_GZ; }
+  
+  .Input_BVP { grid-area: Input_BVP; }
+  
+  .Input_KS { grid-area: Input_KS; }
+  
+  .Input_VP { grid-area: Input_VP; }
+  
+  .Input_ZVP { grid-area: Input_ZVP; }
+  
+  .Input_KR { grid-area: Input_KR; }
+  
+  .Input_LVP { grid-area: Input_LVP; }
+  
+  .Input_US { grid-area: Input_US; }
+  
+  .Input_LVK_US { grid-area: Input_LVK_US; }
+  
+  .Output_LR { grid-area: Output_LR; }
+  
+  .Output_ZEP { grid-area: Output_ZEP; }
+  
+  .Output_LS { grid-area: Output_LS; }
+  
+  .Output_BEP { grid-area: Output_BEP; }
+  
+  .Output_BK { grid-area: Output_BK; }
+  
+  .Output_BP { grid-area: Output_BP; }
+  
+  .Output_HK { grid-area: Output_HK; }
+  
+  .Output_SK { grid-area: Output_SK; }
+  
+  .Output_GZ { grid-area: Output_GZ; }
+  
+  .Output_BVP { grid-area: Output_BVP; }
+  
+  .Output_KS { grid-area: Output_KS; }
+  
+  .Output_VP { grid-area: Output_VP; }
+  
+  .Output_ZVP { grid-area: Output_ZVP; }
+  
+  .Output_KR { grid-area: Output_KR; }
+  
+  .Output_LVP { grid-area: Output_LVP; }
+  
+  .Output_US { grid-area: Output_US; }
+  
+  .Output_LVK_US { grid-area: Output_LVK_US; }
+  
