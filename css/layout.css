@@ -28,6 +28,7 @@
       ". button_area . . .";
   }
   
+  
   .button_area { grid-area: button_area;}
 
   .Titel { grid-area: Titel; }
